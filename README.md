@@ -29,6 +29,20 @@ $ cp .env.example .env
 # create Laravel key
 $ php artisan key:generate
 
+
+# For Mac
+# mysql.server start
+# mysql -uroot -p
+# CREATE DATABASE laravelFortify DEFAULT CHARACTER SET utf8mb4;
+
 # run migration
 $ php artisan migrate
+
+$ php artisan serve
 ```
+
+
+http://localhost:8000/login
+
+http://localhost:8000/register
+
